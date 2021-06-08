@@ -9,34 +9,33 @@ body {
   font-family: "Staatliches", arial;
 }
 
-#title {
-  padding: 20px;
-  font-size: 60px;
-  color: #e5d549;
-}
-
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 40vh;
-  margin: 70px 0 10px 0;
+  align-items: center;
+  /*min-height: 40vh; */
+  height: 80vh;
+  margin-top: 5%;
 }
 
-.display {
-  display: flex;
-  padding: 5px;
-}
-
-.results-div {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
+#title {
+  padding: 1%;
+  margin-top: 4%;
+  font-size: 3.7rem;
+  color: #e5d549;
 }
 
 .currentResult {
   color: #ffff;
+  font-size: 2rem;
+}
+
+.display {
+  display: flex;
+  width: 84vh;
+  height: 60vh;
 }
 
 .grow {
@@ -45,38 +44,49 @@ body {
 }
 
 .choice-style {
-  height: 300px;
-  width: 300px;
-  margin: 20px 10px 0;
+  height: 39vh;
+  width: 40vh;
+  margin: 4% 1.5% 0;
   text-align: center;
   background-color: #ffff;
-  border-radius: 5px;
-  font-size: 40px;
+  border-radius: 2%;
+  font-size: 2.4rem;
+}
+
+img {
+  width: 17vh;
+  height: 29vh;
+}
+
+.hide {
+  display: none;
 }
 
 .playerButtons {
-  margin-top: 20px;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-style {
-  border-radius: 6px;
+  border-radius: 6%;
   border: none;
-  padding: 15px 32px;
+  padding: 15px 30px;
   width: 130px;
-  margin: 10px;
+  margin: 4%;
   text-align: center;
   font-family: "Staatliches", arial;
-  font-size: 20px;
+  font-size: 1.4rem;
   background-color: #e5d549;
   cursor: pointer;
 }
 
 .reset {
-  padding: 5px;
-  margin-top: 10px;
+  padding: 0.5%;
+  margin: 1% 5% 0 3%;
   border: none;
-  border-radius: 5px;
-  font-size: 17px;
+  border-radius: 7%;
+  font-size: 1rem;
   font-family: "Staatliches", arial;
   cursor: pointer;
 }
@@ -91,13 +101,4 @@ body {
 
 .reset:active {
   transform: translateY(4px);
-}
-
-img {
-  max-width: 80%;
-  max-height: 80%;
-}
-
-.hide {
-  display: none;
 }
